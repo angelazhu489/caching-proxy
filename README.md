@@ -1,10 +1,10 @@
 # Simple Node.js Caching Proxy
 - Forwards incoming requests to user provided origin server
 - Caches responses recieved by the origin server
-# Prerequisites
+## Prerequisites
 - Node.js
 - npm
-# Installation
+## Installation
 1. Clone the repository
 ``` shell
 git clone
@@ -14,14 +14,14 @@ git clone
 cd caching-proxy
 npm install
 ```
-# Running the application
-## Starting the server
+## Running the application
+### Starting the server
 ``` shell
 node caching-proxy.js --port <number> --origin <url>
 ```
 eg. `node caching-proxy.js --port 3000 --origin http://dummyjson.com`
 
-## Clearing the cache
+### Clearing the cache
 ``` shell
 ---clear-cache
 ```
